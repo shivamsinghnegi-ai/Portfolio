@@ -60,31 +60,31 @@ export const Banner = () => {
     document.body.removeChild(link);
   };
 
-  return (
+   return (
     <>
       <section className="banner" id="home">
         <Container>
           <Row className="aligh-items-center">
             <Col xs={12} md={6} xl={7}>
               <TrackVisibility>
-                {({ isVisible }) =>
+                {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hi , I'm Shivam Singh Negi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Developer",  "Full Stack Developer"]'><span className="wrap">{text}</span></span></h1>
                     <p>A full stack engineer, crafting scalable, responsive and efficient web applications with growing proficiency as a Ai developer.🚀</p>
                     <button onClick={onButtonClick}>Resume </button>
                     <button onClick={onButtonClick1} className="linkedin1">Linkedin </button>
-                  </div>}
-                }
+                  </div>
+                )}
               </TrackVisibility>
             </Col>
             <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
-                {({ isVisible }) =>
+                {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <img src={headerImg} alt="Header Img"/>
-                  </div>}
-                }
+                    <img src={headerImg} alt="Header Img" />
+                  </div>
+                )}
               </TrackVisibility>
             </Col>
           </Row>
