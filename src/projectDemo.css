@@ -1,0 +1,135 @@
+Project Demo Section Styles
+.project-demo-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  
+  .project-demo-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-play {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    color: #4f46e5;
+  }
+  
+  .video-container {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background-color: #111827;
+  }
+  
+  .thumbnail-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  
+  .play-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #4f46e5;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #4338ca;
+  }
+  
+  .play-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+  }
+  
+  .project-video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .project-details {
+    padding: 1.5rem;
+  }
+  
+  .project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .project-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .project-date {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+  }
+  
+  .icon-calendar {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+  }
+  
+  .project-description {
+    color: #6b7280;
+    line-height: 1.5;
+  }
+  
+  .technologies-container {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .technology-tag {
+    padding: 0.25rem 0.75rem;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
