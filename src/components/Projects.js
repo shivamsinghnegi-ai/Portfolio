@@ -12,7 +12,7 @@ import projImg6 from "../assets/img/creative-agency.png";
 import projImg21 from "../assets/img/serum.png";
 import projImg22 from "../assets/img/gymweb.png";
 import projImg23 from "../assets/img/amazon.png";
-import projImg24 from "../assets/img/cuda.png";
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
